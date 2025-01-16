@@ -1,0 +1,31 @@
+{
+  "user": {
+    "name": "Other Genie",
+    "email": "genie.other@gmail.com",
+    "avatar": ""
+  },
+  "tree": [
+    {
+      "title": "Home",
+      "url": "home",
+      "icon": "home"
+    },
+    {
+      "title": "Insights",
+      "url": "insights",
+      "icon": "book-open",
+      "items": [
+        {
+          "title": "The Art of Thinking Clearly",
+          "url": "the-art-of-thinking-clearly",
+          "items": [
+            {
+              "title": "What is survivorship bias?",
+              "url": "what-is-survivorship-bias"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
