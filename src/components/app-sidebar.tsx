@@ -31,6 +31,7 @@ type Item = {
   title: string;
   url: string;
   icon?: IconName;
+  path?: string; // 000_<url>.json
   items?: Item[];
 }
 

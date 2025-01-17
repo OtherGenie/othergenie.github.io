@@ -79,7 +79,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           </div>
         </header>
 
-        <div>{children}</div>
+        <div className="p-2 ml-12">{children}</div>
       </SidebarInset>
     </SidebarProvider>
   )
