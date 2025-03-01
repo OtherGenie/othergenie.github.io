@@ -1,0 +1,19 @@
+{
+  "title": "What is survivorship bias?",
+  "summary": "Survivorship Bias is a cognitive error that occurs when people focus on successful individuals, neglecting the many others who have failed, which leads to an overestimation of the chances of success. This bias arises from the media spotlighting only successful musicians, authors, and entrepreneurs, while failures remain largely invisible. For example, Rick, inspired by rock stars, mistakenly believes he too can succeed in the music industry without considering the thousands of failed musicians. In investment scenarios, like with the Dow Jones index, only surviving companies are represented, which skews perception. To combat this bias, one must acknowledge the countless unsuccessful attempts that go unreported and the traits shared by both successful and failed individuals, and visit the 'graveyards' of failed ventures to understand the true odds of success.",
+  "questions": [
+    {
+      "answer": "Survivorship Bias is the phenomenon where people overestimate their chances of success by focusing on the visible success of individuals while ignoring the many failures.",
+      "question": "What is Survivorship Bias?"
+    },
+    {
+      "answer": "Media highlights successful individuals, such as rock stars and bestselling authors, while ignoring the vast number of failures, thus distorting public perception about the likelihood of achieving success.",
+      "question": "How does media contribute to Survivorship Bias?"
+    },
+    {
+      "answer": "In investments, such as stock market indices, only surviving and successful companies are represented, leading to a false sense of security and an overestimation of potential returns, as many startups fail.",
+      "question": "What are the implications of Survivorship Bias in investments?"
+    }
+  ],
+  "video_id": "8n2HYd_XA1E"
+}
