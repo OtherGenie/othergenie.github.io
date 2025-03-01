@@ -2,12 +2,7 @@
 
 import { ChevronsUpDown } from "lucide-react";
 
-import {
-  SiGithub,
-  SiReddit,
-  SiX,
-  SiYoutube,
-} from "@icons-pack/react-simple-icons";
+import { SiGithub, SiReddit, SiYoutube } from "@icons-pack/react-simple-icons";
 
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import {
