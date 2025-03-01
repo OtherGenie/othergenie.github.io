@@ -14,18 +14,8 @@
       "title": "Insights",
       "url": "insights",
       "icon": "book-open",
-      "items": [
-        {
-          "title": "The Art of Thinking Clearly",
-          "url": "the-art-of-thinking-clearly",
-          "items": [
-            {
-              "title": "What is survivorship bias?",
-              "url": "what-is-survivorship-bias"
-            }
-          ]
-        }
-      ]
+      "items": []
     }
   ]
 }
+
