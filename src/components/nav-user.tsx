@@ -1,16 +1,15 @@
-"use client"
+"use client";
+
+import { ChevronsUpDown } from "lucide-react";
 
 import {
-  ChevronsUpDown,
-} from "lucide-react"
+  SiGithub,
+  SiReddit,
+  SiX,
+  SiYoutube,
+} from "@icons-pack/react-simple-icons";
 
-import { SiGithub, SiReddit, SiX, SiYoutube } from "@icons-pack/react-simple-icons"
-
-import {
-  Avatar,
-  AvatarFallback,
-  AvatarImage,
-} from "@/components/ui/avatar"
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -19,24 +18,24 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
+} from "@/components/ui/dropdown-menu";
 import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
   useSidebar,
-} from "@/components/ui/sidebar"
+} from "@/components/ui/sidebar";
 
 export function NavUser({
   user,
 }: {
   user: {
-    name: string
-    email: string
-    avatar: string
-  }
+    name: string;
+    email: string;
+    avatar: string;
+  };
 }) {
-  const { isMobile } = useSidebar()
+  const { isMobile } = useSidebar();
 
   return (
     <SidebarMenu>
@@ -81,36 +80,40 @@ export function NavUser({
             <DropdownMenuGroup>
               <DropdownMenuItem>
                 <SiYoutube size={32} />
-                <a href="https://www.youtube.com/@OGenieInsights" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://www.youtube.com/@OGenieInsights"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Other Genie Insights
                 </a>
               </DropdownMenuItem>
 
               <DropdownMenuItem>
                 <SiGithub />
-                <a href="https://github.com/othergenie" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://github.com/othergenie"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Github
                 </a>
               </DropdownMenuItem>
 
               <DropdownMenuItem>
                 <SiReddit />
-                <a href="https://www.reddit.com/user/OtherGenie/" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://www.reddit.com/user/OtherGenie/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Reddit
                 </a>
               </DropdownMenuItem>
-
-              <DropdownMenuItem>
-                <SiX />
-                <a href="https://x.com/OtherGenie" target="_blank" rel="noopener noreferrer">
-                  X (Twitter)
-                </a>
-              </DropdownMenuItem>
             </DropdownMenuGroup>
-
           </DropdownMenuContent>
         </DropdownMenu>
       </SidebarMenuItem>
     </SidebarMenu>
-  )
+  );
 }
